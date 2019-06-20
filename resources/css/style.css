@@ -17,7 +17,7 @@ Orange color: #e67e22;
 html {
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
-  font-weight: 300px;
+  font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
@@ -142,6 +142,7 @@ h2:after {
 /* ---------------------------------*/
 /* HEADER */
 /* ---------------------------------*/
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
   background-size: cover;
@@ -189,4 +190,29 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+/* ---------------------------------*/
+/* MEALS */
+/* ---------------------------------*/
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
 }
